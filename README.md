@@ -1,6 +1,6 @@
 # postcards-from-my-jungle
 
-the whole goal of this project was basically to fake an ecosystem that feels real enough even though none of it actually exists. so the strategy was less about perfection and more about convincing vibes.
+the goal of this assignment was to fake an ecosystem that feels real enough even though none of it actually exists: so the strategy was less about perfection and more about convincing vibes.
 
 for the image model i trained a diffusion model on a small real animal dataset. instead of trying to immediately get good results, i ran short training cycles repeatedly and previewed the outputs after each run. this helped me stop when shapes started looking like creatures instead of melted blobs. i also increased the resolution from 64 to 128 later because diffusion models learn structure first and detail later. small batches were important since the gpu memory runs out fast otherwise. the model wasn’t really learning specific species but more like fur textures, eyes, and silhouettes, which is exactly what makes them feel believable.
 
