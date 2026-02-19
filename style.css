@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    text-align: center;
+}
+
+#animalImage {
+    width: 420px;
+    height: 420px;
+    image-rendering: pixelated;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+#animalName {
+    font-size: 26px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+#controls {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+#volumeSlider {
+    width: 200px;
+}
